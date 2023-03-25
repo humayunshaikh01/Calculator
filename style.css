@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* color: white; */
+}
+
+.Calculator{
+    border: solid 2px black;
+    width: 30%;
+    height: 540px;
+    margin: 50px auto;
+    background-color: black;
+}
+
+.calheading{
+    width: 50%;
+    /* border: solid 1px yellow; */
+    background-color: #f5f506;
+    text-align: center;
+    color: black;
+    margin: 10px auto;
+}
+
+.input{
+    width: 90%;
+    border: solid 2px white;
+    margin: 20px auto 0px;
+    height: 40px;
+}
+
+.input input{
+    width: 100%;
+    height: 100%;
+}
+
+.bodyCal{
+    width: 90%;
+    height: 380px;
+    margin: 1px auto;
+    border: solid 2px white;
+    color: white;
+}
+
+.bodyCal table{
+    border: solid 1px white;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    
+}
+/* 
+.bodyCal table tr td{
+    background-color: gray;
+    color: black;
+} */
