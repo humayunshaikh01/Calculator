@@ -5,7 +5,7 @@
     /* color: white; */
 }
 
-.Calculator{
+/* .Calculator{
     border: solid 2px black;
     width: 30%;
     height: 540px;
@@ -15,7 +15,7 @@
 
 .calheading{
     width: 50%;
-    /* border: solid 1px yellow; */
+    border: solid 1px yellow;
     background-color: #f5f506;
     text-align: center;
     color: black;
@@ -48,9 +48,162 @@
     text-align: center;
     height: 100%;
     
-}
+} */
 /* 
 .bodyCal table tr td{
     background-color: gray;
     color: black;
 } */
+
+
+                /* New Calculator */
+
+.Calculator{
+    border: solid 1px black;
+    width: 27%;
+    height: 400px;
+    margin: 80px auto;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.display{
+    width: 100%;
+    /* border: solid 1px red; */
+    border-radius: 10px;
+    background-color: black;
+    margin-top: 25px;
+}
+
+.display input{
+    width: 95%;
+    height: 45px;
+    margin: 5px 10px;
+    border-radius: 8px;
+    text-align: right;
+    font-size: 28px;
+    border: none;
+    outline: none;
+}
+
+.keys{
+    width: 100%;
+    margin: 10px 0px;
+    /* background-color: black; */
+    /* border: solid 1px red; */
+}
+
+.keys button{
+    width: 50px;
+    height: 50px;
+    margin: 10px 16px 0px 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: lightgrey;
+    box-shadow: 3px 3px 3px rgb(157, 154, 154), 0px 3px 3px rgb(50, 50, 50);
+}
+
+.C{
+    /* background-color: greenyellow; */
+    color: red;
+}
+
+
+
+@media only screen and (max-width: 1250px) and (min-width: 800px){
+    /* .mainContainer{
+        width: 30%;
+        margin: 80px auto;
+
+    } */
+
+    .Calculator{
+        width: 27%;
+        margin: 80px auto;
+    }
+
+    .display{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .keys{
+        width: 100%;
+        /* border: solid 1px white; */
+        display: block;
+        display: flex;
+
+    }
+
+    .keys button{
+        /* width: 45px;
+        height: 45px; */
+        margin: 5px 8px;
+    }
+}
+
+@media only screen and (max-width: 799px) and (min-width: 690px){
+
+    .Calculator{
+        width: 35%;
+        margin: 80px auto;
+    }
+
+    .display{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .display input{
+        width: 90%;
+    }
+
+    .keys{
+        width: 100%;
+        /* border: solid 1px white; */
+        display: block;
+        display: flex;
+
+    }
+
+    .keys button{
+        /* width: 45px;
+        height: 45px; */
+        margin: 5px 8px;
+    }
+}
+
+@media only screen and (max-width: 690px) and (min-width: 190px){
+
+    .Calculator{
+        width: 30%;
+        margin: 80px auto;
+    }
+
+    .display{
+        width: 100%;
+        margin-top: 20px;
+        /* margin-right: 10px; */
+    }
+
+    .display input{
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .keys{
+        width: 100%;
+        /* border: solid 1px white; */
+        display: block;
+        display: flex;
+
+    }
+
+    .keys button{
+        /* width: 45px;
+        height: 45px; */
+        margin: 5px 3px;
+
+    }
+}

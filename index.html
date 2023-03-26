@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="Calculator">
+    <!-- <div class="Calculator">
         <div class="calheading">
             <h1>Calculator</h1>
         </div>
@@ -51,8 +51,48 @@
                 </tr>
             </table>
         </div>
+    </div> -->
 
+
+                    <!-- New calculator -->
+
+    <div class="mainContainer">
+        <div class="Calculator">
+            <div class="display">
+                <input type="text" placeholder="0" name="display" id="number">
+            </div>
+            <div class="keys">
+                <button onclick="setnumber('7')">7</button>
+                <button onclick="setnumber('8')">8</button>
+                <button onclick="setnumber('9')">9</button>
+                <button class="C" onclick="clear()">C</button>
+            </div>
+
+            <div class="keys">
+                <button onclick="setnumber('4')">4</button>
+                <button onclick="setnumber('5')">5</button>
+                <button onclick="setnumber('6')">6</button>
+                <button onclick="setnumber('*')">X</button>
+            </div>
+
+            <div class="keys">
+                <button onclick="setnumber('3')">3</button>
+                <button onclick="setnumber('2')">2</button>
+                <button onclick="setnumber('1')">1</button>
+                <button onclick="setnumber('-')">-</button>
+            </div>
+
+            <div class="keys">
+                <button onclick="setnumber('0')">0</button>
+                <button onclick="setnumber('/')">/</button>
+                <button onclick="setnumber('+')">+</button>
+                <button onclick="ans()">=</button>
+            </div>
+        </div>
     </div>
+
+
+
 </body>
 <script src="app.js"></script>
 </html>
