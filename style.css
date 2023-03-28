@@ -1,9 +1,9 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* color: white; */
-}
+    color: white;
+} */
 
 /* .Calculator{
     border: solid 2px black;
@@ -56,79 +56,114 @@
 } */
 
 
-                /* New Calculator */
+/* New Calculator */
 
-.Calculator{
-    border: solid 1px black;
-    width: 27%;
-    height: 400px;
-    margin: 80px auto;
-    background-color: black;
-    border-radius: 10px;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* color: white; */
+
+
 }
 
-.display{
+
+.mainContainer {
+    border: solid 1px black;
+    width: 100%;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+.Calculator {
+    border: solid 2px gray;
+    width: 27%;
+    /* height: 400px; */
+    margin: 80px auto;
+    /* background-color: black; */
+    border-radius: 10px;
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.display {
     width: 100%;
     /* border: solid 1px red; */
     border-radius: 10px;
-    background-color: black;
+    /* background-color: black; */
     margin-top: 25px;
 }
 
-.display input{
+.display input {
     width: 95%;
-    height: 45px;
+    height: 65px;
     margin: 5px 10px;
     border-radius: 8px;
     text-align: right;
     font-size: 28px;
     border: none;
     outline: none;
+    color: white;
+    /* background-color: black; */
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.keys{
+.keys {
     width: 100%;
     margin: 10px 0px;
-    /* background-color: black; */
+    /* background-color: red; */
     /* border: solid 1px red; */
 }
 
-.keys button{
+.keys button {
     width: 50px;
     height: 50px;
     margin: 10px 16px 0px 15px;
     cursor: pointer;
     border-radius: 50%;
     font-size: 20px;
-    background-color: lightgrey;
-    box-shadow: 3px 3px 3px rgb(157, 154, 154), 0px 3px 3px rgb(50, 50, 50);
+    color: white;
+    background-color: black;
+    box-shadow: 3px 3px 3px -1px rgb(100, 99, 99), 0px 3px 3px rgb(50, 50, 50);
 }
 
-.C{
-    /* background-color: greenyellow; */
+/* .C {
+    background-color: greenyellow;
     color: red;
-}
+} */
 
 
 
-@media only screen and (max-width: 1250px) and (min-width: 800px){
+@media only screen and (max-width: 1250px) and (min-width: 800px) {
     /* .mainContainer{
         width: 30%;
         margin: 80px auto;
 
     } */
 
-    .Calculator{
+    .Calculator {
         width: 27%;
         margin: 80px auto;
     }
 
-    .display{
+    .display {
         width: 100%;
         margin-top: 20px;
     }
 
-    .keys{
+    .keys {
         width: 100%;
         /* border: solid 1px white; */
         display: block;
@@ -136,30 +171,30 @@
 
     }
 
-    .keys button{
+    .keys button {
         /* width: 45px;
         height: 45px; */
         margin: 5px 8px;
     }
 }
 
-@media only screen and (max-width: 799px) and (min-width: 690px){
+@media only screen and (max-width: 799px) and (min-width: 690px) {
 
-    .Calculator{
+    .Calculator {
         width: 35%;
         margin: 80px auto;
     }
 
-    .display{
+    .display {
         width: 100%;
         margin-top: 20px;
     }
 
-    .display input{
+    .display input {
         width: 90%;
     }
 
-    .keys{
+    .keys {
         width: 100%;
         /* border: solid 1px white; */
         display: block;
@@ -167,32 +202,32 @@
 
     }
 
-    .keys button{
+    .keys button {
         /* width: 45px;
         height: 45px; */
         margin: 5px 8px;
     }
 }
 
-@media only screen and (max-width: 690px) and (min-width: 190px){
+@media only screen and (max-width: 690px) and (min-width: 190px) {
 
-    .Calculator{
+    .Calculator {
         width: 30%;
         margin: 80px auto;
     }
 
-    .display{
+    .display {
         width: 100%;
         margin-top: 20px;
         /* margin-right: 10px; */
     }
 
-    .display input{
+    .display input {
         width: 90%;
         font-size: 15px;
     }
 
-    .keys{
+    .keys {
         width: 100%;
         /* border: solid 1px white; */
         display: block;
@@ -200,7 +235,7 @@
 
     }
 
-    .keys button{
+    .keys button {
         /* width: 45px;
         height: 45px; */
         margin: 5px 3px;

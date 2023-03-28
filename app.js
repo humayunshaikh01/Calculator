@@ -9,7 +9,12 @@ function ans(){
     inputvalue.value = output
 }
 
-// function clear(){
-//     var resetValue = document.getElementById("number")
-//     input.value = '';
-// }
+function clearBtn(){
+    var inputvalue = document.getElementById("number")
+    inputvalue.value = " ";    
+}
+
+function dlt(){
+    var inputvalue = document.getElementById("number");
+    inputvalue.value = inputvalue.value.slice(0 ,-1)
+}
